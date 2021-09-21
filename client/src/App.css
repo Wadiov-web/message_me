@@ -1,0 +1,97 @@
+body{
+    background-color: #808080;
+}
+
+.container {
+    
+    padding-top: 4rem;
+}
+
+#title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 600px;
+    height: 602px;
+    background-color: rgb(60, 107, 148);
+}
+
+.messages{
+    width: 600px;
+    height: 535px;
+    background-color: #adffcc;
+    margin-top: 10px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.form {
+    float: left;
+}
+
+#inpt1 {
+    width: 150px;
+    height: 30px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 17px;
+    margin: 2px 0;
+}
+
+#inpt2 {
+    width: 540px;
+    height: 32px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+#btn{
+    padding: 8px 13px;
+    border-style: none;
+    font-weight: bold;
+    background-color: #8b2de9;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#user{
+    background-color: #d228f0;
+    margin: 5px;
+    max-width: 90px;
+    padding: 3px;
+    border-radius: 8px;
+}
+#msg{
+    padding: 8px;
+    background-color: #285df0;
+    margin-bottom: 3px;
+    max-width: 270px;
+    border-radius: 13px;
+    margin-left: 3px;
+}
+
+#other{
+    background-color: #ffd92d;
+    margin: 5px;
+    max-width: 90px;
+    padding: 3px;
+    border-radius: 8px;
+    margin-right: 3px;
+    margin-left: auto;
+}
+#msg2{
+    padding: 8px;
+    background-color: #fb4f4f;
+    margin-bottom: 3px;
+    max-width: 270px;
+    border-radius: 13px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-left: auto;
+}
